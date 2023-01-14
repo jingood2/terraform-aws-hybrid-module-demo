@@ -16,5 +16,5 @@ const project = new HybridModule({
 });
 project.addBundledDeps("cdktf-tf-module-stack");
 project.addPeerDeps("cdktf@^0.12.0");
-project.addPeerDeps("@cdktf/provider-aws@^10.0.107");
+project.addPeerDeps("@cdktf/provider-aws@^10.0.12");
 project.synth();

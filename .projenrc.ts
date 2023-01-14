@@ -14,4 +14,7 @@ const project = new HybridModule({
   // packageName: undefined,        /* The "name" in package.json. */
   // terraformExamples: undefined,  /* If set a terraform examples folder will be created. */
 });
+project.addBundledDeps("cdktf-tf-module-stack");
+project.addPeerDeps("cdktf@^0.12.0");
+project.addPeerDeps("@cdktf/provider-aws@^10.0.107");
 project.synth();

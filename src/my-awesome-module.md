@@ -1,4 +1,4 @@
-# My Awesome Module
+# Awesome Module
 
 ## Usage
 
